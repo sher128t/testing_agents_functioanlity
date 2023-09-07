@@ -39,11 +39,11 @@ def process_multiple_files(files):
     return combined_text
 
 def main():
-    st.set_page_config(page_title="FileQueryHub", page_icon="📄")
-    st.header("FileQueryHub 📂🤖")
+    st.set_page_config(page_title="Token History Analytics", page_icon="📄")
+    st.header("Token History Analytics 📂🤖")
 
     files = st.file_uploader(
-        "Upload multiple files",
+        "Upload single or multiple files of token hotory in any format",
         type=["pdf", "txt", "xlsx", "sql", "docx", "csv"],
         accept_multiple_files=True
     )
